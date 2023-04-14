@@ -6,6 +6,13 @@
         revision="thirteen"
         review="gerrit.libremobileos.com" />
 
+    <!-- GitHub mirror -->
+    <!--
+    <remote name="lmodroid"
+        fetch="https://github.com"
+        revision="thirteen"
+        review="gerrit.libremobileos.com" /> -->
+
     <!-- Bootable -->
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
 

@@ -1185,6 +1185,7 @@
   <include name="snippets/lmodroid.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/ng.xml" />
 
   <!-- END open-source projects -->
 </manifest>

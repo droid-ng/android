@@ -1,15 +1,15 @@
-LMODroid
+droid-ng
 ===========
 
 Getting started
 ---------------
 
-To get started with Android/LMODroid, you'll need to get
+To get started with Android/droid-ng, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the LMODroid trees, use a command like this:
+To initialize your local repository using the droid-ng trees, use a command like this:
 ```
-repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
+repo init -u https://github.com/droid-ng/android -b ng-v4 --git-lfs
 ```
 Then to sync up:
 ```
