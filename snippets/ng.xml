@@ -5,8 +5,14 @@
         fetch="https://github.com/droid-ng"
         revision="ng-v4" />
 
+    <remote name="devices"
+        fetch="https://github.com/devices-ng" />
+
     <remote name="gitlab"
         fetch="https://gitlab.com" />
+
+    <remote name="github"
+        fetch="https://github.com" />
 
     <!-- Bootable -->
     <remove-project name="LMODroid/platform_bootable_recovery" /> <project path="bootable/recovery" name="android_bootable_recovery" remote="ng" />
