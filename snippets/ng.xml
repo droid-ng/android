@@ -14,9 +14,6 @@
     <remote name="github"
         fetch="https://github.com" />
 
-    <!-- Bootable -->
-    <remove-project name="LMODroid/platform_bootable_recovery" /> <project path="bootable/recovery" name="android_bootable_recovery" remote="ng" />
-
     <!-- Frameworks -->
     <remove-project name="LMODroid/platform_frameworks_base" /> <project path="frameworks/base" name="android_frameworks_base" remote="ng" />
 
