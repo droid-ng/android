@@ -14,6 +14,9 @@
     <remote name="github"
         fetch="https://github.com" />
 
+    <!-- Bionic -->
+    <remove-project name="LMODroid/platform_bionic" /> <project path="bionic" name="android_bionic" remote="ng" />
+
     <!-- Frameworks -->
     <remove-project name="LMODroid/platform_frameworks_av" /> <project path="frameworks/av" name="android_frameworks_av" remote="ng" />
     <remove-project name="LMODroid/platform_frameworks_base" /> <project path="frameworks/base" name="android_frameworks_base" remote="ng" />
