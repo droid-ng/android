@@ -18,6 +18,9 @@
     <remove-project name="LMODroid/platform_frameworks_av" /> <project path="frameworks/av" name="android_frameworks_av" remote="ng" />
     <remove-project name="LMODroid/platform_frameworks_base" /> <project path="frameworks/base" name="android_frameworks_base" remote="ng" />
 
+    <!-- Hardware -->
+    <remove-project name="android_hardware_interfaces" /> <project path="hardware/interfaces" name="android_hardware_interfaces" remote="ng" />
+
     <!-- Manifest -->
     <remove-project name="LMODroid/manifest" /> <project path="manifest" name="android" remote="ng" />
 
